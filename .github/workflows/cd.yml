@@ -28,5 +28,7 @@ jobs:
           cd ~/node1
           git pull origin master
           git status
-          npm install --only=prod
+          npm install --omit=dev
+          pm2 start npm --name "node1" -- run "start:dev"
           pm2 restart node1
+          pm2 save
