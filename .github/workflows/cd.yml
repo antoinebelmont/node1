@@ -29,6 +29,6 @@ jobs:
           git pull origin master
           git status
           npm install --omit=dev
-          pm2 start npm --name "node1" -- run "start:dev"
+          pm2 start npm --name "node1" -- run "start"
           pm2 restart node1
           pm2 save
