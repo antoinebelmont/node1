@@ -21,7 +21,7 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: 89.117.22.172
-        username: ${{ secrets.USERNAME }}
+        username: "belmont"
         key: "-----BEGIN RSA PRIVATE KEY-----
           MIIEpAIBAAKCAQEAw5vfjei0nIkhf49yYoyDDAn18WcPKm2sCQdiTf0Iy6X+IDgJ
           Jh4BH4gAT0Z4x4ZE5vFcx4+fWAZ1zu5Ttr/6W1fPmqlbLis1eaJ7/f8AyN0GeMN8
