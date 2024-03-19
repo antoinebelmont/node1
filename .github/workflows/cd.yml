@@ -22,7 +22,55 @@ jobs:
       with:
         host: 89.117.22.172
         username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.PRIVATE_KEY }}
+        key: "-----BEGIN OPENSSH PRIVATE KEY-----
+          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
+          -----END OPENSSH PRIVATE KEY-----"
         port: 22
         script: |
           cd ~/home/danielwetan/apps/node1
