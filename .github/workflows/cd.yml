@@ -22,33 +22,7 @@ jobs:
       with:
         host: 89.117.22.172
         username: "belmont"
-        key: "-----BEGIN RSA PRIVATE KEY-----
-          MIIEpAIBAAKCAQEAw5vfjei0nIkhf49yYoyDDAn18WcPKm2sCQdiTf0Iy6X+IDgJ
-          Jh4BH4gAT0Z4x4ZE5vFcx4+fWAZ1zu5Ttr/6W1fPmqlbLis1eaJ7/f8AyN0GeMN8
-          kIXaBqg18mhiQiBztUkDraNdEZnfNqAEqQyR1fTWOIywQAUv49/F6j1IS4ppfRKT
-          NtCYiVeuok8ARBCcKobBjDtgK+UK05P+EPGcOfzpglBMi7MqZQMdCTILBD2Syn1k
-          hic/ZT/e9oamcnz50npMkfeRfnBK/P2QQPfHpRz4pEpPaAgLHjyy8nMhAGYnXeGD
-          OZs+Kk8IJVkKvyxNyhqsIiw/8ge3NkAvEXNwlQIDAQABAoIBADi3JziEMmn4sMfF
-          lcrRJuYEtVTLJvCMYAc2JuCp7zTs6iP5W1278WNtEXnq2vYvDidP8DDEidUB+oKH
-          Q6qHO1XkvgL/+7oFOToNTJo2p8mVnFzDgYh95ttrRkkEzwiRVDtJ8lEUPtXtoXS7
-          LN6/EEHS/ZHj6O6HEn2l0kK6hg2wkGUUuvdQsdYiSloXH/Pu8n8JLZyYf1fQKzTa
-          wAgJ8KwlOZ18BnLDzgcmAXQ1X0Tfgbd3/A6ki3yCEtAd5EWmU/KZKNRct5HtbRGj
-          IKtXJAwQh72zVMEioUBQ7/L5BU6YD/f/qCqHhM0LrJEo0fNPF4t8F8lodsJTqu+q
-          r0X9sDkCgYEA4FY+Fe02niHUp7PUMHdjDP14aOn3GNiW5tyMbX8QlUjii31K2gE4
-          R2Q/SJqUqMYlpQMrjd/i5JT92n2gIFmQi4jxKGWbJQZStWJ/asWj6In+77nhHkZD
-          YmwuqP3iIP7/NTbTsUO8EO+cztqxfMKsx/QfYL9ugemHtdHdqCuAuHcCgYEA3zeg
-          1grMYDdw6e8iKeNFtZJ6ygvjR3S5GLceId7+oSvRBwh5mzCJKBpVufFWqVGlDmwW
-          6suobMxbWr8AK3ZOIxl6i4n48gZJ10DDyzz7BEXspesY1lKSstdDQDImBsYUKite
-          wmJNAvj/v5lQWOB9HPym4xcT2tOFdUoeerXP7lMCgYEAv/HKiWQ/mSmFFEBPS3C6
-          9UBiqBGXdFDNPJZ0KLPRcom8HHGFe+YTSzJA21Q34fg3+Wou9+MZ9U5trWZTfZpk
-          jJ8NB+13w0QXvE6cirS0O6Dm2iKGtSqVOT8q5TjlJCpKHjPdCQzVewApgOupdP/0
-          adk8h8EDQnCXxz/bkao3Jp0CgYEAxJfB18H67mLl16L9e9bm9lvkOT7vFWf//XyJ
-          1VsI9/oXRxJ3x+6fXeqTxgiAQu/dZy5boL9tvyTc8Ld39s9jUhaGj48c6kwPjL1F
-          tCIpEkJjgl3kqh5fhZOBb3C7fQvHhrxb4Oei3BNha+YjlaNhjb4XXbpdikTxLbPx
-          1DF8yHECgYA0SGt4/MRTj8lxz1hMcCY3q8LeCGqiicjyZwO6fTUrtwI7zqHFPyNG
-          g6iGeht2eAhSdbeANgGtTyuLRq3+AL2U33gsSnFdKtIFSXM4TgLp3i8ZAzgqTEoM
-          h/wJjvTAuTq/UDbJ/Kg7D8WLfFUvPeyJZzzS6hxNnf2qweCNT5H5nA==
-          -----END RSA PRIVATE KEY-----"
+        password: "belmont"
         port: 22
         script: |
           cd ~/home/belmont/apps/node1
